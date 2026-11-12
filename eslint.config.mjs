@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Isolated local test build (NEXT_DIST_DIR=.next-local).
+    ".next-local/**",
   ]),
 ]);
 
